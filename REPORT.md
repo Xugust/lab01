@@ -66,8 +66,7 @@ $ find ~/boost_1_69_0 -type f -name "any.hpp"
 
 7. Выведите в консоль все файлы, где упоминается последовательность boost::asio.
 grep -r "boost::asio" ~/boost_1_69_0 > ~/boost_1_69_0_files_with_boost_asio.txt
-
-file : boost_1_69_0_files_with_boost_asio.txt
+[boost_1_69_0_files_with_boost_asio.txt](https://github.com/user-attachments/files/16986898/boost_1_69_0_files_with_boost_asio.txt)
 
 8. Скомпилирутйе boost.
 $ ./bootstrap.sh --prefix=boost_output
